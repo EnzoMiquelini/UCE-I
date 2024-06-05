@@ -2,22 +2,19 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(109, 177, 255, .55);
+    background-color: rgba(109, 177, 255, .55);;
     height: 500px;
     color: #006090;
-    width: 90%;
 }
 .cabecalhoNav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 40px;
     width: 100%;
     height: 200px;
 }
 .logo{
     width: 10%;
-    height: 100%;
-    display: flex;
 }
 .logo img{
     width: 100%;
@@ -34,9 +31,13 @@ header{
     font-family: "Karla", sans-serif;
 }
 .headerEscritaFundo{
-    width: 50%
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
 }
 .headerEscrita{
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
