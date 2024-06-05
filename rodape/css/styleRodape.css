@@ -1,0 +1,30 @@
+div.rodapeFundo{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+h1{
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    color: #006090;
+    width: 40%;
+}
+a{
+    color: #6AC0E9;
+    font-family: "karla", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+a:hover{
+    color: #006090;
+}
+div.linksRapidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 188.38px;
+}
+div.outraPag h1{
+    margin-bottom: 50px;
+}
