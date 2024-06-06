@@ -12,6 +12,8 @@
     padding: 50px 0px 200px 0px;
 }
 
+
+
 /* Texto ".form" */
 .title-form{
     display: flex;
@@ -114,6 +116,8 @@ input[type=number]::-webkit-inner-spin-button {
     border-radius: 10px;
     cursor: pointer;
 }
+
+/* Icon ".form" */
 .form button ion-icon{
     width: 25px;
     height: 25px;

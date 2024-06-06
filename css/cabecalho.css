@@ -1,10 +1,10 @@
-/* Fundo ".Cabecalho" */
+/* Fundo "header" */
 header{
     background-color: #003350;
 }
 
 
-/* Barra de Navegação */
+/* Barra de Navegação "header" */
 nav{
     padding: 20px 0;
     width: 90%;
@@ -16,6 +16,8 @@ nav{
 .logo-header{
     width: 30%;
 }
+
+/* Menu barra de navegação "header" */
 .menu-header{
     width: 30%;
     display: flex;
@@ -36,6 +38,8 @@ nav{
     gap: 50px;
     color: white;
 }
+
+/* Icone barra de navegação "header" */
 .redes-header ion-icon{
     width: 64px;
     height: 64px;
