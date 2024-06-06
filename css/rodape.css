@@ -4,19 +4,19 @@ div.rodapeFundo{
     justify-content: center;
     height: 300px;
 }
-h1{
+.rodapeFundo h1{
     font-size: 22px;
     font-family: "Oswald", sans-serif;
     color: #006090;
     width: 40%;
 }
-a{
+.rodapeFundo a{
     color: #6AC0E9;
     font-family: "karla", sans-serif;
     font-size: 16px;
     text-decoration: none;
 }
-a:hover{
+.rodapeFundo a:hover{
     color: #006090;
 }
 div.linksRapidos{

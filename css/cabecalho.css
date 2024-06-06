@@ -1,3 +1,19 @@
 header{
-    
+    background-color: #4F99B9;
+}
+nav{
+    padding: 20px 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.logo-header{
+    width: 30%;
+}
+.menu-header{
+    width: 30%;
+    display: flex;
+    gap: 40px;
 }
