@@ -1,3 +1,4 @@
+/* Fundo ".form" */
 .background-form{
     background-color: #d9d9d9;
 }
@@ -10,6 +11,8 @@
     width: 80%;
     padding: 50px 0px 250px 0px;
 }
+
+/* Texto ".form" */
 .title-form{
     display: flex;
     align-items: center;
@@ -18,6 +21,12 @@
     padding: 40px 0px;
     gap: 20px;
 }
+.title-form h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #006090;
+    font-family: "Oswald", sans-serif;
+}
 .title-form h3{
     font-size: 18px;
     font-weight: bold;
@@ -25,12 +34,9 @@
     letter-spacing: 3px;
     font-family: "Karla", sans-serif;
 }
-.title-form h1{
-    font-size: 42px;
-    font-weight: bold;
-    color: #006090;
-    font-family: "Oswald", sans-serif;
-}
+
+
+/* Formulário ".form" */
 .form{
     width: 100%;
 }
@@ -67,6 +73,8 @@ input[type=number]::-webkit-inner-spin-button {
 .form input:focus{
     outline: none;
 }
+
+/* Input Form ".form" */
 .email{
     display: flex;
     flex-direction: column;
@@ -90,15 +98,17 @@ input[type=number]::-webkit-inner-spin-button {
 .mensagem textarea:focus{
     outline: none;
 }
+
+/* Botão ".form" */
 .form button{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 15px;
-    width: 15%;
+    width: 250px;
     background-color: #6ac0e9;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     border: none;
     border-radius: 10px;
