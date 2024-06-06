@@ -1,0 +1,55 @@
+.secao2{
+    padding: 70px 0;
+}
+.secao2 .titulo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.titulo h1{
+    font-size: 60px;
+    color: #4F99B9;
+    font-family: "Oswald", sans-serif;
+}
+.secao2 .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+    gap: auto;
+}
+.secao2 .item-container{
+    width: 47%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 20px;
+    gap: 100px;
+}
+.secao2 .item-container .img{
+    width: 50%;
+    background-color: white;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.secao2 .item-container .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.secao2 .item-container .text h2{
+    color: #4F99B9;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.secao2 .item-container .text p{
+    padding-top: 30px;
+    color: white;
+    font-size: 26px;
+    font-family: "Karla", sans-serif;}
+

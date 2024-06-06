@@ -1,7 +1,7 @@
 header{
     background-color: #4F99B9;
 }
-nav{
+header nav{
     padding: 20px 0;
     width: 90%;
     margin: auto;
@@ -15,5 +15,24 @@ nav{
 .menu-header{
     width: 30%;
     display: flex;
+    justify-content: space-between;
     gap: 40px;
+}
+.menu-header a{
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+}
+.redes-header{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    color: white;
+}
+.redes-header ion-icon{
+    width: 64px;
+    height: 64px;
 }
