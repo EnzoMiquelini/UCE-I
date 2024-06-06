@@ -1,7 +1,11 @@
+/* Fundo ".Cabecalho" */
 header{
     background-color: #4F99B9;
 }
-header nav{
+
+
+/* Barra de Navegação */
+nav{
     padding: 20px 0;
     width: 90%;
     margin: auto;
