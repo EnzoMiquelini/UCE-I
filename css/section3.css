@@ -8,6 +8,7 @@
 }
 
 
+
 /* Texto ".section3" */
 .text-section3{
     display: flex;
@@ -27,6 +28,7 @@
     font-family: "Karla", sans-serif;
     color: white;
 }
+
 
 
 /* Cards ".section3" */
@@ -58,6 +60,10 @@
     gap: 20px;
     padding: 10px 0;
 }
+
+
+
+/* Texto cards ".secao3" */
 .nome-card-section3 h1{
     font-size: 30px;
     color: #003350;

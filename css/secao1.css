@@ -1,3 +1,4 @@
+/* Fundo ".secao1" */
 .secao1{
     background-image: url(../img/projeto_casa_1-img.jpeg);
     background-size: cover;
@@ -6,6 +7,9 @@
     justify-content: space-between;
     height: 1080px;
 }
+
+
+/* Formas ".secao1" */
 .empresa-fundo{
     display: flex;
     justify-content: flex-end;
@@ -21,6 +25,8 @@
     flex-direction: column;
     justify-content: center;
 }
+
+/* Texto formas ".secao1" */
 .retangulo-cima h1{
     color: white;
     font-size: 40px;
@@ -39,6 +45,8 @@
     align-items: center;
     padding: 40px 0px;
 }
+
+/* Texto formas ".secao1" */
 .retangulo-baixo p{
     color: white;
     font-size: 20px;
