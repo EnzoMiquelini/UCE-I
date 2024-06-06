@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.background{
+.background-form{
     background-color: #d9d9d9;
 }
 .container-form{
@@ -48,13 +44,13 @@
     flex-direction: column;
     width: 50%;
 }
-label{
+.form label{
     font-size: 18px;
     font-weight: bold;
     color: #7a7a7a;
     font-family: "Karla", sans-serif;
 }
-input{
+.form input{
     height: 50px;
     border: none;
     border-radius: 10px;
@@ -63,12 +59,12 @@ input{
     font-family: "Karla", sans-serif;
     font-size: 18px;
 }
-input[type=number]::-webkit-outer-spin-button,
+.form input[type=number]::-webkit-outer-spin-button, .form
 input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-input:focus{
+.form input:focus{
     outline: none;
 }
 .email{
@@ -106,8 +102,9 @@ input:focus{
     font-weight: bold;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
-button ion-icon{
+.form button ion-icon{
     width: 25px;
     height: 25px;
 }
