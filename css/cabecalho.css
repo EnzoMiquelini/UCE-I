@@ -1,6 +1,6 @@
 /* Fundo ".Cabecalho" */
 header{
-    background-color: #4F99B9;
+    background-color: #003350;
 }
 
 
@@ -39,4 +39,5 @@ nav{
 .redes-header ion-icon{
     width: 64px;
     height: 64px;
+    color: white;
 }

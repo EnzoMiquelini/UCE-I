@@ -1,19 +1,21 @@
 .secao1{
-    background-image: url(../img/projeto_casa_1-img-.jpeg);
+    background-image: url(../img/projeto_casa_1-img.jpeg);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 1080px;
 }
 .empresa-fundo{
     display: flex;
     justify-content: flex-end;
 }
 .triangulo-cima{
-    border-bottom: 250px solid blue;
+    border-bottom: 250px solid #003350;
     border-left: 150px solid transparent;
 }
 .retangulo-cima{
-    background-color: blue;
+    background-color: #003350;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -29,7 +31,7 @@
     display: flex;
 }
 .retangulo-baixo{
-    background-color: blue;
+    background-color: #003350;
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -45,6 +47,6 @@
     margin-left: 20%;
 }
 .triangulo-baixo{
-    border-top: 300px solid blue;
+    border-top: 300px solid #003350;
     border-right: 200px solid transparent;
 }

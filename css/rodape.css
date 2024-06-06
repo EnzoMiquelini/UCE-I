@@ -24,7 +24,7 @@ footer h1{
     font-family: "Oswald", sans-serif;
     font-weight: bold;
 }
-footer a,p{
+footer a, footer p{
     font-size: 20px;
     color: #6AC0E9;
     text-decoration: none;
