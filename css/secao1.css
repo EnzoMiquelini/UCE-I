@@ -1,7 +1,5 @@
 .secao1{
-    background-image: url(../img/projeto_casa_1-img.jpeg);
-    background-size: cover;
-    height: 90vh;
+    background-image: url(../img/projeto_casa_1-img-.jpeg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,7 +15,6 @@
 .retangulo-cima{
     background-color: blue;
     width: 30%;
-    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -15,13 +15,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     gap: auto;
+    justify-content: space-between;
 }
 .secao2 .item-container{
-    width: 47%;
-    height: 40vh;
+    width: 45%;
+
     display: flex;
     justify-content: space-between;
     background-color: blue;
@@ -29,8 +30,8 @@
     gap: 100px;
 }
 .secao2 .item-container .img{
-    width: 50%;
-    background-color: white;
+    width: 500px;
+    height: 500px;
 }
 .img img{
     width: 100%;
