@@ -1,8 +1,13 @@
+/* Fundo "saiba-mais" */
 .section1-saiba_mais{
     background-image: url(../img/projeto_casa_1-img-\(4\).jpeg);
     background-size: cover;
     background-position: center;
 }
+
+
+/* Seção 1 
+   Texto "saiba-mais" */
 .titulo-saiba_mais{
     display: flex;
     width: 100%;
@@ -17,9 +22,17 @@
     font-size: 60px;
     letter-spacing: 4px;
 }
+
+
+
+/* Seção 2 "saiba-mais" */
 .secao2-saiba_mais{
     padding: 100px 0;
 }
+
+
+
+/* Imagem seção 2 "saiba_mais" */
 .img-saiba_mais{
     width: 90%;
     margin: auto;
@@ -30,6 +43,10 @@
 .img-saiba_mais img{
     width: 30%;
 }
+
+
+
+/* Texto seção 2 "saiba-mais" */
 .texto-saiba_mais{
     display: flex;
     flex-direction: column;
