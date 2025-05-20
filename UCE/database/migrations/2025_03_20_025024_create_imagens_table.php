@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->longText('path');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

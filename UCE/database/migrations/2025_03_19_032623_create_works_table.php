@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('details');
             $table->string('materials');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
