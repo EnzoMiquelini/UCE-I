@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\Api\userRegistrationRequest;
-use App\Models\User;
+use App\Http\Requests\Api\userRegistrationRequest as ApiUserRegistrationRequest;
 use Illuminate\Http\Request;
+use App\Http\Requests\userRegistrationRequest;
+use App\Models\User;
 
 class UserController extends Controller
 {
@@ -26,7 +26,7 @@ class UserController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(userRegistrationRequest $request)
+    public function store(ApiUserRegistrationRequest $request)
     {
         dd('aqui');
         $data = $request->validated();
