@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\authRequest;
 use App\Models\User;
 use Illuminate\Http\Request;
 
@@ -11,8 +12,9 @@ class AuthController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function register(authRequest $request)
     {
+
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'sobrenome' => 'required|string|max:255',

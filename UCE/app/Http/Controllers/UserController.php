@@ -24,21 +24,6 @@ class UserController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
-     */
-    public function store(ApiUserRegistrationRequest $request)
-    {
-        dd('aqui');
-        $data = $request->validated();
-        $data['password'] = bcrypt($data['password']);
-        $user = User::create($data);
-        return response()->json([
-            'message' => 'Usuário criado com sucesso.',
-            'user' => $user
-        ], 201);
-    }
-
-    /**
      * Display the specified resource.
      */
     public function show(string $id)
