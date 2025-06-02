@@ -31,3 +31,13 @@ header {
     align-items: center;
     justify-content: center;
 }
+
+.form-control{
+    border: 1px solid #79F0F6;
+}
+
+.botao{
+    background: #79F0F6;
+    border: 1px solid #79F0F6;
+    color: black;
+}
